@@ -6,10 +6,12 @@ import router from './router'
 import Vuerouter from 'vue-router'
 import iView from 'iview'
 import 'iview/dist/styles/iview.css'
+import $ from 'jquery'
 
 Vue.config.productionTip = false
-Vue.use(Vuerouter)
+// Vue.use(Vuerouter)
 Vue.use(iView)
+Vue.use(router)
 
 /* eslint-disable no-new */
 new Vue({
